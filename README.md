@@ -1,4 +1,4 @@
-# maltriage
+# Maltriage
 
 Static malware triage for executable binaries. Rust feature extraction, LightGBM training, ONNX inference in Rust.
 
