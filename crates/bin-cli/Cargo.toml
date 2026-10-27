@@ -1,0 +1,20 @@
+[package]
+name = "bin-cli"
+description = "maltriage CLI: extract binary features to JSON Lines"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "maltriage"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+bin-features = { path = "../bin-features" }
+rayon.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+walkdir.workspace = true

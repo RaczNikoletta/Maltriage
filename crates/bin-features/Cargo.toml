@@ -1,0 +1,13 @@
+[package]
+name = "bin-features"
+description = "Static feature extraction from executable binaries (single source of truth for training and inference)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+goblin.workspace = true
+regex.workspace = true
+serde.workspace = true
+thiserror.workspace = true
